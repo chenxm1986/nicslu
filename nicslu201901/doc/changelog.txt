@@ -1,0 +1,43 @@
+v201901
+* Minor updates in configuration
+* License update
+
+v201807a
+* Minor updates in configuration
+
+v201807
+* Add a new ordering selection method which again improves ordering quality
+
+v201805
+* Add an argument to NicsLU_Initialize to retrieve the last error message
+* License can be put with the DLL file
+* Performance improvement (up to 10%) if the matrix is ordered using AMF
+* Arguments of NicsLU_Flops changed
+* NicsLU_SolveMatrix is changed to NicsLU_SolveAndRefine
+* Add PrintNicsLULicense
+* Add SparseHalfToSymmetricFull
+* Add NicsLU_Determinant
+* cfg[20] is changed
+
+v201801
+* Add several new ordering methods. Default ordering method changed
+* Fix a bug related to calling METIS
+
+v201712
+* Performance improvement by 1%~5%
+* Add two arguments to NicsLU_Analyze to retrieve the scaling vectors
+
+v201610a
+* Add an argument to NicsLU_Flops to get the flops of forward/backward substitutions
+
+v201610
+* SSE2 optimization for complex kernel. Up to 10% to 20% performance improvement
+* MKL BLAS removed for real number kernel
+* Vector reading added for ReadMatrixMarket
+
+v201609
+* Metis interface added
+* Configuration slightly changed
+
+v201607
+* Native complex kernel added

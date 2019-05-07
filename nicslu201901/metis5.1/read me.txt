@@ -1,0 +1,7 @@
+cfg[3] = +5 or -5 enables the use of METIS. In this case, metis.dll must be put along with the executable (.exe, not nicslu.dll). In other cases, metis.dll is not required. Note that different METIS modules can lead to different ordering results.
+
+As it is not easy to compile METIS to a DLL on Windows by the official package, we provide pre-built DLLs here. Please note that METIS is distributed under the Apache License v2.0.
+
+These METIS DLLs do not work on Windows XP or 2003, because Windows systems before Vista do not support run-time loading DLLs that use thread local storage.
+
+For more information about METIS, please visit http://glaros.dtc.umn.edu/gkhome/metis/metis/overview.
