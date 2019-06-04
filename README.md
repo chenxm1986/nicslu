@@ -23,7 +23,7 @@ You can use NICSLU for free. Once the license is expired, please contact [Xiaomi
 
 NICSLU-OPEN
 ============
-NICSLU-OPEN is an open-source version of NICSLU. NICSLU-OPEN only has the basic parallel factorization feature of NICSLU, but does not have many new features including parallel supernodal factorization, pivoting reduction, approximate minimum fill-in ordering, etc. NICSLU-OPEN has separated real number and complex number inferfaces.
+NICSLU-OPEN is a basic and open-source version of NICSLU. NICSLU-OPEN only has the basic parallel factorization feature of NICSLU, but does not have many new features including parallel supernodal factorization, pivoting reduction, approximate minimum fill-in ordering, etc. NICSLU-OPEN has separated real number and complex number inferfaces.
 
 The last update of NICSLU-OPEN is in Aug 2013. It has known bugs. But we will not update NICSLU-OPEN any more. Please see https://github.com/chenxm1986/nicslu-open.
 
