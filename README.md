@@ -4,7 +4,7 @@ About the name of the solver: NICS is the name of our lab in Tsinghua University
 
 Introduction: NICSLU is a high-performance and robust software package for solving large-scale sparse linear systems of equations (Ax = b) on multi-core shared-memory machines. It is written by C, and can be easily used in C/C++ programs. NICSLU is well suited for SPICE-based circuit simulation problems. There is no limitation of matrix dimension that NICSLU can handle with two exceptions: 1) your computer memory is not big enough; 2) you are using a 32-bit library.<br>
 
-Performance of NICSLU: For a large portion of circuit matrices, sequential NICSLU is over 50% faster than KLU, and the average speedup is 2-3X; while for a very small portion of circuit matrices, sequential NICSLU has similar performance as KLU. Parallel NICSLU is slightly faster than PARDISO, and much faster than UMFPACK and SuperLU. Note that all these comparisons are only for circuit simulation problems. NICSLU is also proved to be high-performance in several state-of-the-art SPICE-based commercial simulators from several famous EDA companies. <br>
+Performance of NICSLU: Sequential NICSLU is about 2X faster than KLU. Parallel NICSLU is about 10X faster than KLU. NICSLU is 1.5-2X faster than PARDISO. NICSLU is much faster than UMFPACK and SuperLU. Note that all these speedups are average values based on our evaluations on circuit simulation problems. NICSLU is also proved to be high-performance in several state-of-the-art SPICE-based commercial simulators from several famous EDA companies. <br>
 
 This library provides Windows-based DLLs. If you need Linux libraries, please contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) with your detailed system information. <br>
 
