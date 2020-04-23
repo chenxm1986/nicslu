@@ -8,8 +8,6 @@ Performance of NICSLU: Sequential NICSLU is about 2X faster than KLU. Parallel N
 
 This library provides Windows-based DLLs. If you need Linux libraries, please contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) with your detailed system information. <br>
 
-Authors' information: Please visit [Xiaoming Chen's personal page](http://people.ucas.edu.cn/~chenxm) or [Yu Wang's group page](https://nicsefc.ee.tsinghua.edu.cn/).
-<br><br>
 
 ## License
 
@@ -26,7 +24,7 @@ You can use NICSLU for free. Once the license is expired, please contact [Xiaomi
 
 Put "nicslu.dll", "nicslu.lib", and "nicslu.lic" in the "bin" folder of your SMASH installation path, e.g., "C:\Program Files\Dolphin\Solutions 2019 Q4.1\smash\bin". Please use the 64- or 32-bit libraries acording to your Windows version. DON'T use the int64 libraries. Add ".OPTION SOLVER=NICSLU" in your netlist.
 
-Once the license is expired, please contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) to get a new license or download a new version.
+Once the license is expired, please contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) to get a new license or download a new version. Also contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) if you want a library for Linux.
 
 NICSLU-OPEN
 ============
@@ -35,3 +33,8 @@ NICSLU-OPEN is a basic and open-source version of NICSLU. NICSLU-OPEN only has t
 The last update of NICSLU-OPEN is in Aug 2013. It has known bugs. But we will not update NICSLU-OPEN any more. Please see https://github.com/chenxm1986/nicslu-open.
 
 NICSLU-OPEN is released under the GNU LGPL lincense.
+
+
+Authors
+============
+Please visit [Xiaoming Chen's personal page](http://people.ucas.edu.cn/~chenxm) or [Yu Wang's group page](https://nicsefc.ee.tsinghua.edu.cn/).
