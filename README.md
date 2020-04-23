@@ -21,6 +21,13 @@ Please contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) for commercial lic
 
 You can use NICSLU for free. Once the license is expired, please contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) to get a new license or download a new version. Please cite one or more of our papers when you publish your research if you have used NICSLU in your research.
 
+
+## For Use in [Dolphin Design - SMASH](https://support.dolphin-design.fr/index.php/eda_solutions/eda_downloads)
+
+Put "nicslu.dll", "nicslu.lib", and "nicslu.lic" in the "bin" folder of your SMASH installation path, e.g., "C:\Program Files\Dolphin\Solutions 2019 Q4.1\smash\bin". Please use the 64- or 32-bit libraries acording to your Windows version. DON'T use the int64 libraries. Add ".OPTION SOLVER=NICSLU" in your netlist.
+
+Once the license is expired, please contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) to get a new license or download a new version.
+
 NICSLU-OPEN
 ============
 NICSLU-OPEN is a basic and open-source version of NICSLU. NICSLU-OPEN only has the basic parallel factorization feature of NICSLU, but does not have many new features including parallel supernodal factorization, pivoting reduction, approximate minimum fill-in ordering, etc. NICSLU-OPEN has separated real number and complex number inferfaces.
