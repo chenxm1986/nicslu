@@ -22,7 +22,7 @@ You can use NICSLU for free. Once the license is expired, please contact [Xiaomi
 
 ## For Use in [Dolphin Design - SMASH](https://support.dolphin-design.fr/index.php/eda_solutions/eda_downloads)
 
-Put "nicslu.dll", "nicslu.lib", and "nicslu.lic" in the "bin" folder of your SMASH installation path, e.g., "C:\Program Files\Dolphin\Solutions 2019 Q4.1\smash\bin". Please use the 64- or 32-bit libraries acording to your Windows version. DON'T use the int64 libraries. Add ".OPTION SOLVER=NICSLU" in your netlist.
+Put "nicslu.dll", "nicslu.lib", and "nicslu.lic" in the "bin" folder of your SMASH installation path, e.g., "C:\Program Files\Dolphin\Solutions 2019 Q4.1\smash\bin\". Please use the 64- or 32-bit libraries according to your Windows version. DON'T use the int64 libraries. Add ".OPTION SOLVER=NICSLU" in your netlist.
 
 Once the license is expired, please contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) to get a new license or download a new version. Also contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) if you want a library for Linux.
 
