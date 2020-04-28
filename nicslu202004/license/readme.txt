@@ -1,0 +1,1 @@
+From version 202004, the license key file is NOT compatible with previous versions.
