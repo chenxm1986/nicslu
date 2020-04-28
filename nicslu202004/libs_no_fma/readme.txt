@@ -1,0 +1,1 @@
+From version 202004, we provide NICSLU libraries that use or do not use fused-multiply-add (FMA) intrinsic instructions. FMA is supported only by CPU architectures not older than Intel's Haswell (the 4th Core family) or AMD's Piledriver. If the FMA-enabled libraries get error, please use the FMA-disabled libraries and the cost is a small performance degradation.
