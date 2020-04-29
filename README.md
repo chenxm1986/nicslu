@@ -32,7 +32,7 @@ NICSLU-OPEN is a basic and open-source version of NICSLU. NICSLU-OPEN only has t
 
 The last update of NICSLU-OPEN is in Aug 2013. It has known bugs. But we will not update NICSLU-OPEN any more. Please see https://github.com/chenxm1986/nicslu-open.
 
-NICSLU-OPEN is released under the GNU LGPL lincense.
+NICSLU-OPEN is released under the GNU LGPL license.
 
 
 Authors
