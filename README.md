@@ -26,13 +26,7 @@ Put "nicslu.dll", "nicslu.lib", and "nicslu.lic" in the "bin" folder of your SMA
 
 Once the license is expired, please contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) to get a new license or download a new version. Also contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) if you want a library for Linux.
 
-NICSLU-OPEN
-============
-NICSLU-OPEN is a basic and open-source version of NICSLU. NICSLU-OPEN only has the basic parallel factorization feature of NICSLU, but does not have many new features including parallel supernodal factorization, pivoting reduction, approximate minimum fill-in ordering, etc. NICSLU-OPEN has separated real number and complex number inferfaces.
 
-The last update of NICSLU-OPEN is in Aug 2013. It has known bugs. But we will not update NICSLU-OPEN any more. Please see https://github.com/chenxm1986/nicslu-open.
-
-NICSLU-OPEN is released under the GNU LGPL license.
 
 
 Authors
