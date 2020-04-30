@@ -1,3 +1,10 @@
+Currently download of NICSLU is suspended. We will restore the download in June 2020.
+
+
+
+
+
+
 NICSLU----Parallel Sparse Solver for Circuit Simulation
 ============
 About the name of the solver: NICS is the name of our lab in Tsinghua University ---- Nano-scale Integrated Circuits and Systems.
