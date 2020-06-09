@@ -1,0 +1,1 @@
+Please define the macro __NICS_INT64 by the compiler (this will ensure that this macro is seen by any code), not in any C code.
