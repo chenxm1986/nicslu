@@ -33,6 +33,7 @@ stat[14]: # of factorizations performed
 stat[15]: # of refactorizations performed
 stat[16]: selected ordering method
 stat[17]: factor algorithm
+stat[18]: singular row index (in original order)
 stat[29]: license expiration date (YYYYMMDD)
 stat[30]: build time (YYYYMMDD.HHMMSS)
 stat[31]: version of NICSLU (YYYYMM)
