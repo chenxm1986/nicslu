@@ -17,6 +17,8 @@ Please contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) for commercial lic
 
 You can use NICSLU for free. Once the license is expired, please contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) to get a new license or download a new version. Please cite one or more of our papers when you publish your research if you have used NICSLU in your research.
 
+## Publications
+
 
 ## For Use in [Dolphin Design - SMASH](https://support.dolphin-design.fr/index.php/eda_solutions/eda_downloads)
 
