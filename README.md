@@ -25,7 +25,7 @@ You can use NICSLU for free. Once the license is expired, please contact [Xiaomi
 
 [3] Xiaoming Chen, Yu Wang, Huazhong Yang, NICSLU: An Adaptive Sparse Matrix Solver for Parallel Circuit Simulation", Computer-Aided Design of Integrated Circuits and Systems, IEEE Transactions on, vol. 32, no. 2, pp. 261-274, feb. 2013.
 
-[4] Xiaoming Chen, Yu Wang, Huazhong Yang, An Adaptive LU Factorization Algorithm for Parallel Circuit Simulation", Design Automation Conference (ASP-DAC), 2012 17th Asia and South Paci_c, pp.359-364, Jan. 30, 2012-Feb. 2, 2012.
+[4] Xiaoming Chen, Yu Wang, Huazhong Yang, An Adaptive LU Factorization Algorithm for Parallel Circuit Simulation", Design Automation Conference (ASP-DAC), 2012 17th Asia and South Pacific, pp.359-364, Jan. 30, 2012-Feb. 2, 2012.
 
 [5] Xiaoming Chen, Yu Wang, Huazhong Yang, A Fast Parallel Sparse Solver for SPICE-based Circuit Simulators", Design, Automation, and Test in Europe (DATE) 2015, pp.205-210, 9-13 March, 2015.
 
