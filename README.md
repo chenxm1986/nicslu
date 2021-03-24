@@ -34,7 +34,7 @@ You can use NICSLU for free. Once the license is expired, please contact [Xiaomi
 
 ## For Use in [Dolphin Design - SMASH](https://support.dolphin-design.fr/index.php/eda_solutions/eda_downloads)
 
-For SMASH 7.5.X, please use the special libraries in nicslu_for_smash7.5.x, while for SMASH 7.6.0, please use nicslu202006.
+For SMASH 7.5.X, please use the special libraries in nicslu_for_smash7.5.x, while for SMASH 7.6.0, please use nicslu202103.
 
 Put "nicslu.dll", "nicslu.lib", and "nicslu.lic" in the "bin" folder of your SMASH installation path, e.g., "C:\Program Files\Dolphin\Solutions 2019 Q4.1\smash\bin\". Add ".OPTION SOLVER=NICSLU" in your netlist.
 
