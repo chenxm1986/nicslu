@@ -10,7 +10,7 @@ NICSLU features the following innovatory techniques.
 (1) Better-than-AMD matrix ordering, which reduces about 30-40% floating-point operations than conventional AMD.  
 (2) Adaptive numerical kernel selection.  
 (3) Low-cost dynamic scheduling for parallel factorization.  
-(4) Numerically stable Pivoting reduction.  
+(4) Numerically stable pivoting reduction.  
 
 
 ## License
