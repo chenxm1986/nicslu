@@ -1,0 +1,71 @@
+v202110
+* Bug fix
+* Added a new ordering method
+* Added a new static pivoting method
+* Added a set of native C++ interface
+
+v202103
+* Bug fix
+
+v202006
+* Performance improvement in factorization (2%-10%) and solving (3%-25%)
+* Ordering methods reconstructed (average ~10% improvement in flops)
+* Functionality of NicsLU_SetThreadSchedule changed
+* Updated utility routines
+* Minor updates in configurations & statistics
+
+v201905B
+* Memory optimization for ordering algorithms
+* Added a parallel selection of best ordering method
+* NicsLU_DrawFactors added
+
+v201905A
+* ColAMD and METIS removed due to good performance of built-in ordering methods
+* Optimization for AMF ordering methods
+
+v201905
+* Add two new AMF ordering methods which again improve ordering quality
+
+v201901
+* Minor updates in configuration
+* License update
+
+v201807a
+* Minor updates in configuration
+
+v201807
+* Add a new ordering selection method which again improves ordering quality
+
+v201805
+* Add an argument to NicsLU_Initialize to retrieve the last error message
+* License can be put with the DLL file
+* Performance improvement (up to 10%) if the matrix is ordered using AMF
+* Arguments of NicsLU_Flops changed
+* NicsLU_SolveMatrix is changed to NicsLU_SolveAndRefine
+* Add PrintNicsLULicense
+* Add SparseHalfToSymmetricFull
+* Add NicsLU_Determinant
+* cfg[20] is changed
+
+v201801
+* Add several new ordering methods. Default ordering method changed
+* Fix a bug related to calling METIS
+
+v201712
+* Performance improvement by 1%~5%
+* Add two arguments to NicsLU_Analyze to retrieve the scaling vectors
+
+v201610a
+* Add an argument to NicsLU_Flops to get the flops of forward/backward substitutions
+
+v201610
+* SSE2 optimization for complex kernel. Up to 10% to 20% performance improvement
+* MKL BLAS removed for real number kernel
+* Vector reading added for ReadMatrixMarket
+
+v201609
+* Metis interface added
+* Configuration slightly changed
+
+v201607
+* Native complex kernel added

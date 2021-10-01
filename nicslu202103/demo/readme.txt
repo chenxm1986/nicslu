@@ -1,1 +1,0 @@
-Four demos are provided. demo_real.c and demo_complex.c demonstrate basic usage of NICSLU for real and complex numbers respectively. demo.c and demo.cpp demonstrate a more practical usage of NICSLU using the C interface and C++ wrapper, respectively. To run the demos, please put "nicslu.lic" together with the executable files.
