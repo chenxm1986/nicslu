@@ -1,10 +1,10 @@
 NICSLU----Parallel Sparse Solver for Circuit Simulation
 ============
-About the name of the solver: NICS is the name of our lab in Tsinghua University ---- Nano-scale Integrated Circuits and Systems.
+About the name of the solver: NICS is the lab name when I was in Tsinghua University ---- Nano-scale Integrated Circuits and Systems.
 
 Introduction: NICSLU is a high-performance and robust software package for solving large-scale sparse linear systems of equations (Ax = b) on multi-core shared-memory machines. It is written by C, and can be easily used in C/C++ programs. NICSLU is well suited for SPICE-based circuit simulation problems.
 
-Performance of NICSLU: Sequential NICSLU is about 2-3X (on average) faster than KLU. Parallel NICSLU is about 10X (on average) faster than KLU. When using the same number of threads, NICSLU is about 2X (on average) faster than PARDISO. NICSLU is much faster than UMFPACK and SuperLU. Note that all these speedups are average values based on our evaluations on circuit simulation problems. Please download [results.pdf](https://github.com/chenxm1986/nicslu/blob/master/results.pdf) (from an old version) for the results and comparisons. NICSLU is also proven to be high-performance in several state-of-the-art SPICE-based commercial simulators from several famous EDA companies. Some techniques have been adopted in domestic EDA software.
+Performance of NICSLU: Sequential NICSLU is about `2-3X (on average) faster than KLU`. Parallel NICSLU is about `10X (on average) faster than KLU`. When using the same number of threads, NICSLU is about `2X (on average) faster than PARDISO`. NICSLU is much faster than UMFPACK and SuperLU. NICSLU is even about `10X faster (on average) than latest GPU-based solvers`. Note that all these speedups are average values based on our evaluations on circuit simulation problems. Please download [results.pdf](https://github.com/chenxm1986/nicslu/blob/master/results.pdf) (from an old version) for the results and comparisons. NICSLU is also proven to be high-performance in several state-of-the-art SPICE-based commercial simulators from several famous EDA companies. Some techniques have been adopted in domestic EDA software.
 
 NICSLU features the following innovatory techniques.  
 (1) Better-than-AMD matrix ordering, which reduces about 30-40% floating-point operations than conventional AMD.  
