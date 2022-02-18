@@ -4,7 +4,7 @@ About the name of the solver: NICS is the lab name when I was in Tsinghua Univer
 
 Introduction: NICSLU is a high-performance and robust software package for solving large-scale sparse linear systems of equations (Ax = b) on multi-core shared-memory machines. It is written by C, and can be easily used in C/C++ programs. NICSLU is well suited for SPICE-based circuit simulation problems.
 
-Performance of NICSLU: Sequential NICSLU is about `2-3X (on average) faster than KLU`. Parallel NICSLU is about `10X (on average) faster than KLU`. When using the same number of threads, NICSLU is about `2X (on average) faster than PARDISO`. NICSLU is much faster than UMFPACK and SuperLU. NICSLU is even about `10X faster (on average) than latest GPU-based solvers`. Note that all these speedups are average values based on our evaluations on circuit simulation problems. Please download [results.pdf](https://github.com/chenxm1986/nicslu/blob/master/results.pdf) (from an old version) for the results and comparisons. NICSLU is also proven to be high-performance in several state-of-the-art SPICE-based commercial simulators from several famous EDA companies. Some techniques have been adopted in domestic EDA software.
+Performance of NICSLU: Sequential NICSLU is about `2-3X (on average) faster than KLU`. Parallel NICSLU (using 16 threads) is `more than 10X (on average) faster than KLU`. When using the same number of threads, NICSLU is about `2X (on average) faster than PARDISO`. NICSLU is much faster than UMFPACK and SuperLU. NICSLU is even about `10X faster (on average) than latest GPU-based solvers`. Note that all these speedups are average values based on our evaluations on circuit simulation problems. Please download [results.pdf](https://github.com/chenxm1986/nicslu/blob/master/results.pdf) (from an old version) for the results and comparisons. NICSLU is also proven to be high-performance in several state-of-the-art SPICE-based commercial simulators from several famous EDA companies. Some techniques have been adopted in domestic EDA software.
 
 NICSLU features the following innovatory techniques.  
 (1) Better-than-AMD matrix ordering, which reduces about 30-40% floating-point operations than conventional AMD.  
@@ -25,17 +25,17 @@ You can use NICSLU for free. Once the license is expired, please contact [Xiaomi
 
 ## Publications
 
-[1] Xiaoming Chen, Yu Wang, Huazhong Yang, Parallel Sparse Direct Solver for Integrated Circuit Simulation", Springer Publishing, 1st edition, Feb. 2017. 136 pages.
+[1] Xiaoming Chen, Yu Wang, Huazhong Yang, "Parallel Sparse Direct Solver for Integrated Circuit Simulation", Springer Publishing, 1st edition, Feb. 2017. 136 pages.
 
-[2] Xiaoming Chen, Wei Wu, Yu Wang, Hao Yu, Huazhong Yang, An EScheduler-based Data Dependence Analysis and Task Scheduling for Parallel Circuit Simulation", Circuits and Systems II: Express Briefs, IEEE Transactions on, vol. 58, no. 10, pp. 702-706, oct. 2011.
+[2] Xiaoming Chen, Wei Wu, Yu Wang, Hao Yu, Huazhong Yang, "An EScheduler-based Data Dependence Analysis and Task Scheduling for Parallel Circuit Simulation", Circuits and Systems II: Express Briefs, IEEE Transactions on, vol. 58, no. 10, pp. 702-706, oct. 2011.
 
-[3] Xiaoming Chen, Yu Wang, Huazhong Yang, NICSLU: An Adaptive Sparse Matrix Solver for Parallel Circuit Simulation", Computer-Aided Design of Integrated Circuits and Systems, IEEE Transactions on, vol. 32, no. 2, pp. 261-274, feb. 2013.
+[3] Xiaoming Chen, Yu Wang, Huazhong Yang, "NICSLU: An Adaptive Sparse Matrix Solver for Parallel Circuit Simulation", Computer-Aided Design of Integrated Circuits and Systems, IEEE Transactions on, vol. 32, no. 2, pp. 261-274, feb. 2013.
 
-[4] Xiaoming Chen, Yu Wang, Huazhong Yang, An Adaptive LU Factorization Algorithm for Parallel Circuit Simulation", Design Automation Conference (ASP-DAC), 2012 17th Asia and South Pacific, pp.359-364, Jan. 30, 2012-Feb. 2, 2012.
+[4] Xiaoming Chen, Yu Wang, Huazhong Yang, "An Adaptive LU Factorization Algorithm for Parallel Circuit Simulation", Design Automation Conference (ASP-DAC), 2012 17th Asia and South Pacific, pp.359-364, Jan. 30, 2012-Feb. 2, 2012.
 
-[5] Xiaoming Chen, Yu Wang, Huazhong Yang, A Fast Parallel Sparse Solver for SPICE-based Circuit Simulators", Design, Automation, and Test in Europe (DATE) 2015, pp.205-210, 9-13 March, 2015.
+[5] Xiaoming Chen, Yu Wang, Huazhong Yang, "A Fast Parallel Sparse Solver for SPICE-based Circuit Simulators", Design, Automation, and Test in Europe (DATE) 2015, pp.205-210, 9-13 March, 2015.
 
-[6] Xiaoming Chen, Lixue Xia, Yu Wang, Huazhong Yang, Sparsity-Oriented Sparse Solver Design for Circuit Simulation", Design, Automation, and Test in Europe (DATE) 2016, pp.1580-1585, March 14-18, 2016.
+[6] Xiaoming Chen, Lixue Xia, Yu Wang, Huazhong Yang, "Sparsity-Oriented Sparse Solver Design for Circuit Simulation", Design, Automation, and Test in Europe (DATE) 2016, pp.1580-1585, March 14-18, 2016.
 
 
 ## For Use in [Dolphin Design - SMASH](https://support.dolphin-design.fr/index.php/eda_solutions/eda_downloads)
