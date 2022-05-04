@@ -22,7 +22,7 @@ size_t         4            8           4          8
 #define __NICS_COMMON__
 
 #ifdef _MSC_VER
-/*to avoid some STUPID errors on visual studio 2017 and 2019*/
+/*to avoid some inexplicable errors on visual studio 2017/2019/2022*/
 #define _CRT_SECURE_NO_WARNINGS		1
 #define _CRT_NONSTDC_NO_WARNINGS	1
 #define _CRT_SECURE_NO_DEPRECATE	1
