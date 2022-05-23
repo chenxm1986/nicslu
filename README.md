@@ -21,6 +21,8 @@ Please contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) for commercial lic
 
 #### For academic research:
 
+From 2022.5.23, we provide 10-year long-term license key file.
+
 You can use NICSLU for free. Once the license is expired, please contact [Xiaoming Chen](mailto:chenxiaoming@ict.ac.cn) to get a new license or download a new version. Please cite one or more of our papers when you publish your research if you have used NICSLU in your research.
 
 ## Publications
