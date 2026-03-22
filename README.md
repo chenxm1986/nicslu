@@ -6,7 +6,7 @@ Introduction: NICSLU is a high-performance and robust software package for solvi
 
 NICSLU will no longer be updated or maintained. The last version is provided here. The license has been extended to 9999-99-99.
 
-** The successor of NICSLU is [CKTSO](https://github.com/chenxm1986/cktso), which provides better performance and scalability than NICSLU. Please use CKTSO instead. **
+**The successor of NICSLU is [CKTSO](https://github.com/chenxm1986/cktso), which provides better performance and scalability than NICSLU. Please use CKTSO instead.**
 
 
 
